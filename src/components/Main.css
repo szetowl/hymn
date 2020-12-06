@@ -1,0 +1,87 @@
+.main-container {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.list-page {
+  background-image: linear-gradient(to right, #0c2935,lightyellow);
+  display: block;
+  flex: 1;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.page {
+  border: solid 1px gray;
+  margin: 8px;
+  background-image: linear-gradient(to right, lightyellow, white);
+  border-radius: 5px;
+  box-shadow: 1px 2px gray;
+  padding-bottom: 10px;
+  color:rgb(58, 56, 56)
+}
+
+.length-number {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.ul-list {
+  list-style-type: none;
+  padding-inline-start: 15px;
+}
+.list-item {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+}
+.length-search-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  width: 100%;
+  background-color: #9f62f3;
+  border-bottom: solid 2px #0a00b6;
+  border-top: solid 1px #0a00b6;
+  position: fixed;
+  bottom: 0px;
+}
+.length-block {
+  display: flex;
+  flex-grow: 1;
+}
+
+.button-link-even {
+  background-color: #9149f7;
+  padding: 8px;
+  color: lightyellow;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-link-odd {
+  color: lightyellow;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.video-page {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.video-title {
+  padding: 30px 20px;
+  padding-top: 40px;
+  font-size: 26px;
+}
+
+.video-player {
+  object-fit: fill;
+  width: 100%;
+}
